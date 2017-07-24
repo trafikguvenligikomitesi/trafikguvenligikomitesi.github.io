@@ -1,0 +1,35 @@
+@font-face {
+    font-family: GravurCondensed-Bold;
+    src: url(https://www.towardszero.vic.gov.au/__data/assets/file/0007/175444/lineto-gravurcondensed-bold.eot?v=0.1.1);
+    src: url(https://www.towardszero.vic.gov.au/__data/assets/file/0007/175444/lineto-gravurcondensed-bold.eot?v=0.1.1?#iefix) format("embedded-opentype"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0004/175441/lineto-gravurcondensed-bold.woff?v=0.1.1) format("woff"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0005/175442/lineto-gravurcondensed-bold.ttf?v=0.1.1) format("truetype"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0006/175443/lineto-gravurcondensed-bold.svg?v=0.1.1#lineto-gravurcondensed-bold) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: GravurCondensed-Thin;
+    src: url(https://www.towardszero.vic.gov.au/__data/assets/file/0004/175432/lineto-gravurcondensed-thin.eot?v=0.1.1);
+    src: url(https://www.towardszero.vic.gov.au/__data/assets/file/0004/175432/lineto-gravurcondensed-thin.eot?v=0.1.1?#iefix) format("embedded-opentype"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0010/175429/lineto-gravurcondensed-thin.woff?v=0.1.1) format("woff"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0020/175430/lineto-gravurcondensed-thin.ttf?v=0.1.1) format("truetype"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0003/175431/lineto-gravurcondensed-thin.svg?v=0.1.1#lineto-gravurcondensed-thin) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: GravurCondensed-Regular;
+    src: url(https://www.towardszero.vic.gov.au/__data/assets/file/0008/175436/lineto-gravurcondensed-regular.eot?v=0.1.1);
+    src: url(https://www.towardszero.vic.gov.au/__data/assets/file/0008/175436/lineto-gravurcondensed-regular.eot?v=0.1.1?#iefix) format("embedded-opentype"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0005/175433/lineto-gravurcondensed-regular.woff?v=0.1.1) format("woff"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0006/175434/lineto-gravurcondensed-regular.ttf?v=0.1.1) format("truetype"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0007/175435/lineto-gravurcondensed-regular.svg?v=0.1.1#lineto-gravurcondensed-regular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: GravurCondensed-Black;
+    src: url(https://www.towardszero.vic.gov.au/__data/assets/file/0011/175448/lineto-gravurcondensed-black.eot?v=0.1.1);
+    src: url(https://www.towardszero.vic.gov.au/__data/assets/file/0011/175448/lineto-gravurcondensed-black.eot?v=0.1.1?#iefix) format("embedded-opentype"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0008/175445/lineto-gravurcondensed-black.woff?v=0.1.1) format("woff"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0009/175446/lineto-gravurcondensed-black.ttf?v=0.1.1) format("truetype"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0010/175447/lineto-gravurcondensed-black.svg?v=0.1.1#lineto-gravurcondensed-black) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: GravurCondensed-Light;
+    src: url(https://www.towardszero.vic.gov.au/__data/assets/file/0003/175440/lineto-gravurcondensed-light.eot?v=0.1.1);
+    src: url(https://www.towardszero.vic.gov.au/__data/assets/file/0003/175440/lineto-gravurcondensed-light.eot?v=0.1.1?#iefix) format("embedded-opentype"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0009/175437/lineto-gravurcondensed-light.woff?v=0.1.1) format("woff"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0010/175438/lineto-gravurcondensed-light.ttf?v=0.1.1) format("truetype"), url(https://www.towardszero.vic.gov.au/__data/assets/file/0011/175439/lineto-gravurcondensed-light.svg?v=0.1.1#lineto-gravurcondensed-light) format("svg");
+    font-weight: 400;
+    font-style: normal
+}

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+gvim slides.md
+
+#
+# End of script
+#

@@ -1,0 +1,267 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>amCharts examples</title>
+        <script src="js/amcharts/amcharts/amcharts.js" type="text/javascript"></script>
+        <script src="js/amcharts/amcharts/serial.js" type="text/javascript"></script>
+
+        <script>
+            // note, we have townName field with a name specified for each datapoint and townName2 with only some of the names specified.
+            // we use townName2 to display town names next to the bullet. And as these names would overlap if displayed next to each bullet,
+            // we created this townName2 field and set only some of the names for this purpse.
+
+var chart_data = [
+   {
+      'year': 1975,
+      'fatalities': 54
+   },
+   {
+      'year': 1976,
+      'fatalities': 64
+   },
+   {
+      'year': 1977,
+      'fatalities': 50
+   },
+   {
+      'year': 1978,
+      'fatalities': 42
+   },
+   {
+      'year': 1979,
+      'fatalities': 32
+   },
+   {
+      'year': 1980,
+      'fatalities': 28
+   },
+   {
+      'year': 1981,
+      'fatalities': 36
+   },
+   {
+      'year': 1982,
+      'fatalities': 31
+   },
+   {
+      'year': 1983,
+      'fatalities': 31
+   },
+   {
+      'year': 1984,
+      'fatalities': 32
+   },
+   {
+      'year': 1985,
+      'fatalities': 36
+   },
+   {
+      'year': 1986,
+      'fatalities': 44
+   },
+   {
+      'year': 1987,
+      'fatalities': 51
+   },
+   {
+      'year': 1988,
+      'fatalities': 58
+   },
+   {
+      'year': 1989,
+      'fatalities': 46
+   },
+   {
+      'year': 1990,
+      'fatalities': 58
+   },
+   {
+      'year': 1991,
+      'fatalities': 40
+   },
+   {
+      'year': 1992,
+      'fatalities': 62
+   },
+   {
+      'year': 1993,
+      'fatalities': 43
+   },
+   {
+      'year': 1994,
+      'fatalities': 28
+   },
+   {
+      'year': 1995,
+      'fatalities': 61
+   },
+   {
+      'year': 1996,
+      'fatalities': 32
+   },
+   {
+      'year': 1997,
+      'fatalities': 43
+   },
+   {
+      'year': 1998,
+      'fatalities': 38
+   },
+   {
+      'year': 1999,
+      'fatalities': 49
+   },
+   {
+      'year': 2000,
+      'fatalities': 53
+   },
+   {
+      'year': 2001,
+      'fatalities': 60
+   },
+   {
+      'year': 2002,
+      'fatalities': 41
+   },
+   {
+      'year': 2003,
+      'fatalities': 53
+   },
+   {
+      'year': 2004,
+      'fatalities': 76
+   },
+   {
+      'year': 2005,
+      'fatalities': 64
+   },
+   {
+      'year': 2006,
+      'fatalities': 48
+   },
+   {
+      'year': 2007,
+      'fatalities': 47
+   },
+   {
+      'year': 2008,
+      'fatalities': 48
+   },
+   {
+      'year': 2009,
+      'fatalities': 44
+   },
+   {
+      'year': 2010,
+      'fatalities': 42
+   },
+   {
+      'year': 2011,
+      'fatalities': 42
+   },
+   {
+      'year': 2012,
+      'fatalities': 24
+   },
+   {
+      'year': 2013,
+      'fatalities': 49
+   },
+   {
+      'year': 2014,
+      'fatalities': 29
+   },
+   {
+      'year': 2015,
+      'fatalities': 28
+   },
+   {
+      'year': 2016,
+      'fatalities': 32
+   },
+];
+
+
+
+            var chart;
+
+            AmCharts.ready(function () {
+                // SERIAL CHART
+                chart = new AmCharts.AmSerialChart();
+                chart.dataProvider = chart_data;
+                chart.categoryField = "year";
+                chart.color = "#FFFFFF";
+                chart.marginLeft = 0;
+
+                // AXES
+                // category
+                var categoryAxis = chart.categoryAxis;
+                categoryAxis.gridAlpha = 0.1;
+                categoryAxis.gridColor = "#FFFFFF";
+                categoryAxis.axisColor = "#555555";
+
+                // as we have data of different units, we create three different value axes
+                // Distance value axis
+                var fatality_axis = new AmCharts.ValueAxis();
+                fatality_axis.title = "fatalities";
+                fatality_axis.gridAlpha = 0;
+                fatality_axis.axisAlpha = 0;
+                chart.addValueAxis( fatality_axis );
+
+                // GRAPHS
+                // distance graph
+                var fatality_graph = new AmCharts.AmGraph();
+                fatality_graph.valueField = "fatalities";
+                fatality_graph.title = "fatalities";
+                fatality_graph.type = "line";
+                fatality_graph.fillAlphas = 0.1;
+                fatality_graph.valueAxis = fatality_axis; // indicate which axis should be used
+                fatality_graph.balloonText = "[[value]]";
+                fatality_graph.legendValueText = "[[value]]";
+                fatality_graph.legendPeriodValueText = "total: [[value.sum]]";
+                fatality_graph.lineColor = "#263138";
+                fatality_graph.dashLengthField = "dashLength";
+                fatality_graph.alphaField = "alpha";
+
+                fatality_graph.lineColor = "#ff5755";
+                fatality_graph.balloonText = "[[value]]";
+                fatality_graph.lineThickness = 1;
+                fatality_graph.legendValueText = "[[value]]";
+                fatality_graph.bullet = "square";
+                fatality_graph.bulletBorderColor = "#ff5755";
+                fatality_graph.bulletBorderThickness = 1;
+                fatality_graph.bulletBorderAlpha = 1;
+                fatality_graph.dashLengthField = "dashLength";
+ 
+                chart.addGraph( fatality_graph );
+
+                // CURSOR
+                var chartCursor = new AmCharts.ChartCursor();
+                chartCursor.zoomable = false;
+                chartCursor.categoryBalloonDateFormat = "DD";
+                chartCursor.cursorAlpha = 0;
+                chartCursor.valueBalloonsEnabled = false;
+                chart.addChartCursor(chartCursor);
+
+                // LEGEND
+                var legend = new AmCharts.AmLegend();
+                legend.bulletType = "round";
+                legend.equalWidths = false;
+                legend.valueWidth = 120;
+                legend.useGraphSettings = true;
+                legend.color = "#FFFFFF";
+                chart.addLegend(legend);
+
+                // WRITE
+                chart.write("chartdiv");
+            });
+        </script>
+    </head>
+
+    <body style="background-color:#161616">
+        <div id="chartdiv" style="width:100%; height:400px;"></div>
+    </body>
+
+</html>

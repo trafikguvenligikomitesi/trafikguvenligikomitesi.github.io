@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://denehyg.github.io/reveal.js-menu/#/home -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+
+		<title>reveal.js-menu</title>
+
+		<meta name="description" content="A slideout menu for reveal.sj, a framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Greg Denehy">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="./reveal.js-menu_files/reveal.css">
+		<link rel="stylesheet" href="./reveal.js-menu_files/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="./reveal.js-menu_files/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script async="" src="./reveal.js-menu_files/analytics.js"></script><script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script><link rel="stylesheet" type="text/css" href="./reveal.js-menu_files/paper.css">
+
+		<!--[if lt IE 9]>
+		<script src="reveal.js/lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<style>
+			.reveal .slide-number {
+				font-size: 0.6em;
+			}
+		</style>
+	<script type="text/javascript" src="./reveal.js-menu_files/jeesh.min.js"></script><script type="text/javascript" src="./reveal.js-menu_files/bowser.min.js"></script><link rel="stylesheet" href="./reveal.js-menu_files/menu.css"><link rel="stylesheet" href="./reveal.js-menu_files/font-awesome.min.css"></head>
+
+	<body style="transition: -webkit-transform 0.8s ease;">
+
+		<div class="reveal slide center" role="application" data-transition-speed="default" data-background-transition="fade">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides" style="width: 960px; height: 700px; zoom: 0.673714;">
+				<section id="home" class="present" style="top: 140px; display: block;" data-node-uid="1">
+					<h1>Reveal.js-menu</h1>
+					<h3>A slideout menu for navigating reveal.js presentations</h3>
+					<p>
+						<small>Created by <a href="https://github.com/denehyg">Greg Denehy</a> / <a href="http://twitter.com/gregdenehy">@gregdenehy</a></small>
+					</p>
+				</section>
+
+				<section id="introduction" hidden="" aria-hidden="true" class="future" style="top: 58.5px; display: block;" data-node-uid="2">
+					<h3>Hey There</h3>
+					<p>Have you ever used <a href="https://github.com/hakimel/reveal.js">reveal.js</a> and wanted jump <br>somewhere else in your presentation?</p>
+					<p>The slide overview is great but perhaps you want to <br>change slides without your audience seeing everything.</p>
+					<p>Perhaps you need to quickly change the <br>theme without editing the slide source.</p>
+					<p>Give <a href="https://github.com/denehyg/reveal.js-menu">reveal.js-menu</a> a try</p>
+				</section>
+
+				<section data-menu-title="Opening the menu" hidden="" aria-hidden="true" class="future" style="top: 172px; display: block;" data-node-uid="3">
+					<p>See the &nbsp;<a href="https://denehyg.github.io/reveal.js-menu/#" onclick="RevealMenu.toggle(); return false;"><i class="fa fa-bars"></i></a>&nbsp; in the corner?</p>
+					<p>Click it and the menu will open from the side.</p>
+					<p>
+						Click anywhere on the slide to return to the presentation,<br>
+						or use the close button in the menu.
+					</p>
+				</section>
+
+				<section data-menu-title="Using the slide number" hidden="" aria-hidden="true" class="future" style="top: 330px; display: none;" data-node-uid="4">
+					<p>If you don't like the menu button,<br>you can use the slide number instead.</p>
+					<p>Go on, give it a go.</p>
+					<p>The menu button can be hidden using the options, <br>but you need to enable the slide number link.</p>
+				</section>
+
+				<section id="keyboard" data-menu-title="Keyboard" hidden="" aria-hidden="true" class="future" style="top: 330px; display: none;" data-node-uid="5">
+					<p>Or you can open the menu by pressing the <code>m</code> key.</p>
+					<p>
+						You can navigate the menu with the keyboard as well. <br>Just use the arrow keys and <code>&lt;space&gt;</code> or <code>&lt;enter&gt;</code> to change slides.
+					</p>
+					<p>You can disable the keyboard for the <br>menu in the options if you wish.</p>
+				</section>
+
+				<section hidden="" aria-hidden="true" class="future" style="top: 330px; display: none;" data-node-uid="6">
+					<h3>Left or Right</h3>
+					<p>You can configure the menu to slide in from the left or right</p>
+				</section>
+
+				<section hidden="" aria-hidden="true" class="future" style="top: 330px; display: none;" data-node-uid="7">
+					<h3>Markers</h3>
+					<p>The slide markers in the menu can be useful to show <br>you the progress through the presentation.</p>
+					<p>You can hide them if you want.</p>
+					<p>You can also add slide numbers.</p>
+				</section>
+
+				<section id="titles" hidden="" aria-hidden="true" class="future" style="top: 330px; display: none;" data-node-uid="8">
+					<h3>Slide Titles</h3>
+					<p>
+						The menu uses the first heading to label each slide<br>
+						but you can specify another label if you want.
+					</p>
+					<p>
+						Use a <code>data-menu-title</code> attribute in the section element to give the slide a custom label,
+						or add a <code>menu-title</code> class to any element in the slide you wish.
+					</p>
+					<p>
+						You can change the <code>titleSelector</code> option and use<br>
+						any elements you like as the default for labelling each slide.
+					</p>
+				</section>
+
+				<section hidden="" aria-hidden="true" class="stack future" style="top: 330px; display: none;">
+					<section data-node-uid="9" style="top: 330px; display: none;">
+						<h2>Vertical Slides</h2>
+						<p>The menu indents your vertical slides so it's easy to see the structure of your presentation.</p>
+						<br>
+						<a href="https://denehyg.github.io/reveal.js-menu/#" class="navigate-down">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section class="future" aria-hidden="true" data-node-uid="10" style="top: 330px; display: none;">
+						<h2>Next slide down</h2>
+					</section>
+					<section class="future" aria-hidden="true" data-node-uid="11" style="top: 330px; display: none;">
+						<h2>At the bottom</h2>
+						<br>
+						<a href="https://denehyg.github.io/reveal.js-menu/#/2">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
+						</a>
+					</section>
+				</section>
+
+				<section id="themes" hidden="" aria-hidden="true" class="future" style="top: 330px; display: none;" data-node-uid="12">
+					<h3>Themes</h3>
+					<p>The menu can also be used to change the <br>theme of your presentation.</p>
+					<p>Just click the Themes button at the top of the menu.</p>
+					<p>The list of themes can be configured in the options.</p>
+				</section>
+
+				<section id="transitions" hidden="" aria-hidden="true" class="future" style="top: 330px; display: none;" data-node-uid="13">
+					<h3>Transitions</h3>
+					<p>You can also change the default <br>transition style from the menu.</p>
+				</section>
+
+				<section data-menu-title="Hiding menu panels" hidden="" aria-hidden="true" class="future" style="top: 330px; display: none;" data-node-uid="14">
+					<p>Of course,</p>
+					<p>if you don't want to see the <i>Themes</i> or <i>Transitions</i> menus you can hide them in the options.</p>
+				</section>
+
+				<section id="custom" hidden="" aria-hidden="true" class="future" style="top: 330px; display: none;" data-node-uid="15">
+					<h3>Custom Panels</h3>
+					<p>
+						Create your own custom menu panels where<br>
+						you can add your own html content.
+					</p>
+					<p>
+						Custom panels support menu items so you<br>
+						can create your own menus that look and<br>
+						behaviour just like the other menus.
+					</p>
+				</section>
+
+				<section hidden="" aria-hidden="true" class="future" style="top: 330px; display: none;" data-node-uid="16">
+					<h3>Speaker View</h3>
+					<p>The menu works independently in the speaker view.</p>
+					<p>You can changes slides without your audience <br>seeing you doing any of it.</p>
+				</section>
+
+				<section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="future" data-node-uid="17">
+					<h1>THE END</h1>
+					<p><a href="https://github.com/denehyg/reveal.js-menu/archive/master.zip">Download reveal.js-menu</a> and add it to your plugin folder</p>
+					<p>Have a look at the <a href="https://github.com/denehyg/reveal.js-menu">source code &amp; documentation</a></p>
+					<p>And don't forget to check out <a href="https://github.com/hakimel/reveal.js">Reveal.js</a> if you haven't already</p>
+				</section>
+
+			</div>
+
+		<div class="backgrounds"><div class="slide-background present" data-loaded="true" style="display: block;"></div><div class="slide-background future" data-loaded="true" style="display: block;"></div><div class="slide-background future" data-loaded="true" style="display: block;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="progress" style="display: block;"><span style="width: 0px;"></span></div><aside class="controls" style="display: block;"><div class="navigate-left"></div><div class="navigate-right enabled"></div><div class="navigate-up"></div><div class="navigate-down"></div></aside><div class="slide-number-wrapper"><a href="https://denehyg.github.io/reveal.js-menu/#"><div class="slide-number">1</div></a></div><div class="pause-overlay"></div><div id="aria-status-div" aria-live="polite" aria-atomic="true" style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px 1px 1px 1px);">
+					Reveal.js-menu
+					A slideout menu for navigating reveal.js presentations
+					
+						Created by Greg Denehy / @gregdenehy
+					
+				</div><nav class="slide-menu slide-menu--left"><ol class="slide-menu-toolbar"><li data-panel="Slides" data-button="0" class="toolbar-panel-button active-toolbar-button"><span class="slide-menu-toolbar-label">Slides</span><br><i class="fa fa-list"></i></li><li data-panel="Custom0" data-button="1" class="toolbar-panel-button"><span class="slide-menu-toolbar-label">Custom</span><br><i class="fa fa-bookmark"></i></li><li data-panel="Themes" data-button="2" class="toolbar-panel-button"><span class="slide-menu-toolbar-label">Themes</span><br><i class="fa fa-desktop"></i></li><li data-panel="Transitions" data-button="3" class="toolbar-panel-button"><span class="slide-menu-toolbar-label">Transitions</span><br><i class="fa fa-arrows-h"></i></li><li id="close"><span class="slide-menu-toolbar-label">Close</span><br><i class="fa fa-times"></i></li></ol><div data-panel="Slides" class="slide-menu-panel active-menu-panel"><ul class="slide-menu-items"><li class="slide-menu-item active" data-item="0" data-slide-h="0" data-slide-v="0" data-node-uid="18"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Reveal.js-menu</span></li><li class="slide-menu-item future" data-item="1" data-slide-h="1" data-slide-v="0" data-node-uid="19"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Hey There</span></li><li class="slide-menu-item future" data-item="2" data-slide-h="2" data-slide-v="0" data-node-uid="20"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Opening the menu</span></li><li class="slide-menu-item future" data-item="3" data-slide-h="3" data-slide-v="0" data-node-uid="21"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Using the slide number</span></li><li class="slide-menu-item future" data-item="4" data-slide-h="4" data-slide-v="0" data-node-uid="22"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Keyboard</span></li><li class="slide-menu-item future" data-item="5" data-slide-h="5" data-slide-v="0" data-node-uid="23"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Left or Right</span></li><li class="slide-menu-item future" data-item="6" data-slide-h="6" data-slide-v="0" data-node-uid="24"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Markers</span></li><li class="slide-menu-item future" data-item="7" data-slide-h="7" data-slide-v="0" data-node-uid="25"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Slide Titles</span></li><li class="slide-menu-item future" data-item="8" data-slide-h="8" data-slide-v="0" data-node-uid="26"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Vertical Slides</span></li><li class="slide-menu-item-vertical future" data-item="9" data-slide-h="8" data-slide-v="1" data-node-uid="27"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Next slide down</span></li><li class="slide-menu-item-vertical future" data-item="10" data-slide-h="8" data-slide-v="2" data-node-uid="28"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">At the bottom</span></li><li class="slide-menu-item future" data-item="11" data-slide-h="9" data-slide-v="0" data-node-uid="29"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Themes</span></li><li class="slide-menu-item future" data-item="12" data-slide-h="10" data-slide-v="0" data-node-uid="30"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Transitions</span></li><li class="slide-menu-item future" data-item="13" data-slide-h="11" data-slide-v="0" data-node-uid="31"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Hiding menu panels</span></li><li class="slide-menu-item future" data-item="14" data-slide-h="12" data-slide-v="0" data-node-uid="32"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Custom Panels</span></li><li class="slide-menu-item future" data-item="15" data-slide-h="13" data-slide-v="0" data-node-uid="33"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">Speaker View</span></li><li class="slide-menu-item future" data-item="16" data-slide-h="14" data-slide-v="0" data-node-uid="34"><i class="fa fa-check-circle past"></i><i class="fa fa-dot-circle-o active"></i><i class="fa fa-circle-thin future"></i><span class="slide-menu-item-title">THE END</span></li></ul></div><div data-panel="Custom0" class="slide-menu-panel slide-menu-custom-panel"><h3>Custom links</h3><p>Here's a custom list of the main slides.</p><p>Click the link to change slides or alternatively try the keyboard navigation.</p><p></p><ul class="slide-menu-items">
+    <li class="slide-menu-item" data-item="1"><a href="https://denehyg.github.io/reveal.js-menu/#/1">Introduction</a></li>
+    <li class="slide-menu-item" data-item="2"><a href="https://denehyg.github.io/reveal.js-menu/#/titles">Slide Titles</a></li>
+    <li class="slide-menu-item" data-item="3"><a href="https://denehyg.github.io/reveal.js-menu/#/keyboard">Keyboard Interaction</a></li>
+    <li class="slide-menu-item" data-item="4"><a href="https://denehyg.github.io/reveal.js-menu/#/themes">Changing Themes</a></li>
+    <li class="slide-menu-item" data-item="5"><a href="https://denehyg.github.io/reveal.js-menu/#/transitions">Changing Transitions</a></li>
+    <li class="slide-menu-item" data-item="6"><a href="https://denehyg.github.io/reveal.js-menu/#/custom">Custom Panels</a></li>
+</ul><h3>External Links</h3><p>These custom menu items can also link to external pages</p><ul class="slide-menu-items">
+    <li class="slide-menu-item" data-item="7"><a href="https://github.com/denehyg/reveal.js-menu" target="_blank">Reveal.js-menu source</a></li>
+    <li class="slide-menu-item" data-item="8"><a href="https://github.com/hakimel/reveal.js" target="_blank">Reveal.js</a></li>
+</ul></div><div data-panel="Themes" class="slide-menu-panel"><ul class="slide-menu-items"><li class="slide-menu-item" data-theme="reveal.js/css/theme/black.css" data-item="1">Black</li><li class="slide-menu-item" data-theme="reveal.js/css/theme/white.css" data-item="2">White</li><li class="slide-menu-item" data-theme="reveal.js/css/theme/league.css" data-item="3">League</li><li class="slide-menu-item" data-theme="reveal.js/css/theme/sky.css" data-item="4">Sky</li><li class="slide-menu-item" data-theme="reveal.js/css/theme/beige.css" data-item="5">Beige</li><li class="slide-menu-item" data-theme="reveal.js/css/theme/simple.css" data-item="6">Simple</li><li class="slide-menu-item" data-theme="reveal.js/css/theme/serif.css" data-item="7">Serif</li><li class="slide-menu-item" data-theme="reveal.js/css/theme/blood.css" data-item="8">Blood</li><li class="slide-menu-item" data-theme="reveal.js/css/theme/night.css" data-item="9">Night</li><li class="slide-menu-item" data-theme="reveal.js/css/theme/moon.css" data-item="10">Moon</li><li class="slide-menu-item" data-theme="reveal.js/css/theme/solarized.css" data-item="11">Solarized</li></ul></div><div data-panel="Transitions" class="slide-menu-panel"><ul class="slide-menu-items"><li class="slide-menu-item" data-transition="none" data-item="1">None</li><li class="slide-menu-item" data-transition="fade" data-item="2">Fade</li><li class="slide-menu-item" data-transition="slide" data-item="3">Slide</li><li class="slide-menu-item" data-transition="convex" data-item="4">Convex</li><li class="slide-menu-item" data-transition="concave" data-item="5">Concave</li><li class="slide-menu-item" data-transition="zoom" data-item="6">Zoom</li></ul></div></nav><div class="slide-menu-overlay"></div><div class="slide-menu-button"><a href="https://denehyg.github.io/reveal.js-menu/#"><i class="fa fa-bars"></i></a></div></div>
+
+		<script src="./reveal.js-menu_files/head.min.js"></script>
+		<script src="./reveal.js-menu_files/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				slideNumber: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				menu: {
+					markers: true,
+					openSlideNumber: true,
+					themes: [
+						{ name: 'Black', theme: 'css/theme/black.css' },
+						{ name: 'White', theme: 'css/theme/white.css' },
+						{ name: 'League', theme: 'css/theme/league.css' },
+						{ name: 'Sky', theme: 'css/theme/sky.css' },
+						{ name: 'Beige', theme: 'css/theme/beige.css' },
+						{ name: 'Simple', theme: 'css/theme/simple.css' },
+						{ name: 'Serif', theme: 'css/theme/serif.css' },
+						{ name: 'Blood', theme: 'css/theme/blood.css' },
+						{ name: 'Night', theme: 'css/theme/night.css' },
+						{ name: 'Moon', theme: 'css/theme/moon.css' },
+						{ name: 'Solarized', theme: 'css/theme/solarized.css' }
+			        ],
+			        custom: [
+			            { title: 'Custom', icon: '<i class="fa fa-bookmark">', src: 'links.html' },
+			        ]
+				},
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/reveal.js-menu/menu.js', async: true }
+				]
+			});
+		</script>
+                
+                <script type="text/javascript" src="./reveal.js-menu_files/zoom.js"></script>
+                <script type="text/javascript" src="./reveal.js-menu_files/notes.js"></script>
+                <script type="text/javascript" src="./reveal.js-menu_files/menu.js"></script>
+
+		<a class="fork-reveal" href="https://github.com/denehyg/reveal.js-menu"><img style="position: absolute; top: 0; right: 0; border: 0;" src="./reveal.js-menu_files/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork reveal.js-menu on GitHub"></a>
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-66860273-1', 'auto');
+			ga('send', 'pageview');
+
+			Reveal.addEventListener( 'slidechanged', function( event ) {
+				var loc = (event.indexv > 0 ? event.indexh+'' : event.indexh+'.'+event.indexv);
+				ga('send', 'event', 'slide', 'changed', loc);
+			} );
+		</script>
+
+	
+
+</body></html>

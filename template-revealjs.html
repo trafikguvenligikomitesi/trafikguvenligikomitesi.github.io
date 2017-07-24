@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+
+   <head>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <meta name="author" content="Hüseyin Sevay">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+      <title>Trafik Güvenliği</title>
+
+      <link rel="stylesheet" href="css/reveal.css">
+      <link rel="stylesheet" href="css/theme/$theme$.css">
+
+      <!-- Theme used for syntax highlighting of code -->
+      <link rel="stylesheet" href="lib/css/zenburn.css">
+
+      <!-- Style customization -->
+      <link rel="stylesheet" href="css/style.css" id="theme">
+
+      <!-- Printing and PDF exports -->
+      <script>
+         var link = document.createElement( 'link' );
+         link.rel = 'stylesheet';
+         link.type = 'text/css';
+         link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+         document.getElementsByTagName( 'head' )[0].appendChild( link );
+      </script>
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/highcharts.js"></script>
+
+      <script src="js/amcharts/amcharts/amcharts.js" type="text/javascript"></script>
+      <script src="js/amcharts/amcharts/serial.js" type="text/javascript"></script>
+
+      <!--
+      <script src="js/trafikte-olumler.js"></script>
+      <script src="js/trafik-davalari.js"></script>
+      -->
+
+      <script src="js/fatality_graph.js"></script>
+
+      <script src="js/comparison.js"></script>
+
+      <!--
+      <script src="js/trafik.js"></script>
+      <script src="js/test-line-chart-01.js"></script>
+      <script src="js/fatalities.js"></script>
+      <script src="js/courtcases.js"></script>
+      <script src="js/crashes.js"></script>
+      -->
+
+   </head>
+
+   <body>
+
+      <div class="reveal">
+
+         <div class="slides">
+
+            <!--<section class="level2" data-background="images/asphalt03-opacity50.jpg">
+            -->
+            <section class="level2" data-background="images/backgrounds/ertac-cuneyt-road-o.jpg">
+
+               <!-- Title slide -->
+
+               <div class="shadowed_title_midsize_fonts">
+
+                  KKTC Cumhuriyet Meclisi
+
+               </div>
+
+               <div class="shadowed_title_large_fonts">
+
+                  Trafik Güvenliği Komitesi
+
+               </div>
+
+               <div class="shadowed_title_midsize_fonts">
+
+                  Vizyonu ve Amaçları
+
+               </div>
+
+               <div class="shadowed_title_small_fonts with_top_margin">
+
+                  <table class="equal_colwidth">
+
+                     <tr>
+
+                        <td>
+                           Mehmet M. Kunt, PhD
+                        </td>
+
+                        <td>
+                           Hüseyin Sevay, PhD
+                        </td>
+
+                        <td>
+                           Taner Aksu, PE, MSc, MA
+                        </td>
+
+                     </tr>
+
+                     <tr style="font-size: 80%">
+
+                        <td>
+                           DAÜ İnşaat Mühendisliği Öğretim Üyesi, DAÜ
+                           Trafik Eğitimi ve Araştırma Merkezi Başkanı
+                        </td>
+
+                        <td>
+                           YDÜ Bilişim Sistemleri Mühendisliği Öğretim Üyesi,
+                           trafik güvenliği araştırmacısı
+                        </td>
+
+                        <td>
+                           Profesyonel lisanslı trafik ve ulaştırma mühendisi,
+                           Kaliforniya, ABD
+                        </td>
+
+                     </tr>
+
+                  </table>
+
+               </div>
+
+               <div class="shadowed_title_small_fonts">
+
+                  24 Temmuz 2017
+
+               </div>
+
+                <div class="shadowed_title_small_fonts">
+
+                  Meclis Mavi Salonu
+
+               </div>
+
+            </section>
+
+            <!-- Rest of the slides -->
+
+            $body$
+
+         </div>
+
+      </div>
+
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.js"></script>
+
+      <script>
+
+         // More info https://github.com/hakimel/reveal.js#configuration
+         //
+         Reveal.initialize({
+            history: true,
+            numbers: true,
+            controls: true,
+            progress: true,
+            center: false,
+            transition: '$transition$', 
+            slideNumber: true,
+            transitionSpeed: '$transition_speed$', 
+
+            math: {
+               mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+               config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+            },
+
+            dependencies: [
+               {src: 'plugin/markdown/marked.js' },
+               {src: 'plugin/markdown/markdown.js' },
+               {src: 'plugin/notes/notes.js', async: true },
+               {src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+               {src: 'plugin/math/math.js', async: true },
+            ]
+         });
+
+      </script>
+
+   </body>
+
+</html>
+

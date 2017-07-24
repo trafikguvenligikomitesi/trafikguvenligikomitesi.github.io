@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="341.33334"
+   height="341.33334"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.0 unknown"
+   sodipodi:docname="trafikte-olumler-2017-v3.svg"
+   inkscape:export-filename="/home/hsevay/traffic-deaths-in-memory.2017.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.28"
+     inkscape:cx="211.41555"
+     inkscape:cy="170.91271"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Background"
+     style="display:inline"
+     transform="translate(-322.17568,-398.91439)">
+    <rect
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+       id="rect4205"
+       width="341.33334"
+       height="341.33334"
+       x="322.17569"
+       y="398.9144" />
+  </g>
+  <g
+     inkscape:label="Fatalities"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-473.02513,-854.85392)"
+     style="display:inline">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3956"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.12763214px;line-height:125%;font-family:'Tibetan Machine Uni';-inkscape-font-specification:'Tibetan Machine Uni';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.00531816"><flowRegion
+         id="flowRegion3958"
+         style="stroke-width:2.00531816"><rect
+           id="rect3960"
+           width="678.10199"
+           height="715.42871"
+           x="182.20497"
+           y="146.50128"
+           style="stroke-width:4.02130079" /></flowRegion><flowPara
+         id="flowPara3962"
+         style="stroke-width:2.00531816" /></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Top"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <rect
+       y="11.199999"
+       x="11.200004"
+       height="318.93332"
+       width="318.93332"
+       id="rect3431"
+       style="display:inline;opacity:0.56999966;fill:#ff6600;fill-opacity:0.44500002;stroke:none;stroke-width:1.06666672" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Symbols"
+     style="display:inline"
+     transform="translate(-322.17568,-398.91439)">
+    <flowRoot
+       style="font-style:normal;font-weight:normal;font-size:29.33333397px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4159"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4161"
+         style="stroke-width:1.06666672px"><rect
+           y="-30.933332"
+           x="-42.133335"
+           height="428.26666"
+           width="473.06668"
+           id="rect4163"
+           style="stroke-width:1.13777781px" /></flowRegion><flowPara
+         id="flowPara4165"
+         style="stroke-width:1.06666672px" /></flowRoot>    <g
+       id="g3252"
+       transform="matrix(1.1461421,0,0,1.1461421,-129.01232,-98.858673)">
+      <g
+         id="g3261">
+        <g
+           id="g3306"
+           transform="translate(222.77392,-34.098372)">
+          <text
+             id="text3308"
+             y="719.09753"
+             x="158.31705"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:340.00109863px;line-height:0%;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D, Normal';text-align:start;letter-spacing:-34.72090912px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.21333334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:290.83071899px;line-height:0%;font-family:WayfindingSansRg-Bold;-inkscape-font-specification:WayfindingSansRg-Bold;text-align:start;letter-spacing:-10.66666698px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:0.21333334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               y="719.09753"
+               x="158.31705"
+               id="tspan3310"
+               sodipodi:role="line">10</tspan><tspan
+               id="tspan3316"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:240px;line-height:0%;font-family:WayfindingSansRg-Bold;-inkscape-font-specification:WayfindingSansRg-Bold;text-align:start;letter-spacing:-10.66666698px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:0.21333334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               y="747.42676"
+               x="158.31705"
+               sodipodi:role="line" /></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:340.00109863px;line-height:0%;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D, Normal';text-align:start;letter-spacing:-34.72090912px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.21333334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             x="434.67542"
+             y="684.48108"
+             id="text3312"><tspan
+               sodipodi:role="line"
+               id="tspan3314"
+               x="434.67542"
+               y="781.01013"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:300px;line-height:0%;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D, Normal';text-align:start;letter-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:0.21333334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></text>
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer4"
+       inkscape:label="Invisible"
+       style="display:none">
+      <rect
+         y="99.180588"
+         x="669.8139"
+         height="159.64656"
+         width="159.64656"
+         id="rect3304"
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:11.02010727;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <text
+       id="text4225"
+       y="729.13025"
+       x="335.30206"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:339.88418579px;line-height:0%;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D, Normal';text-align:start;letter-spacing:-34.70897293px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.21333334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.98624802px;line-height:0%;font-family:WayfindingSansRg-Bold;-inkscape-font-specification:'WayfindingSansRg-Bold, Normal';text-align:start;letter-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:0.21333334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="729.13025"
+         x="335.30206"
+         id="tspan4227"
+         sodipodi:role="line">1975-2017: 1883</tspan></text>
+    <text
+       id="text4229"
+       y="438.42825"
+       x="347.11798"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:340.00109863px;line-height:0%;font-family:'Roadgeek 2005 Series D';-inkscape-font-specification:'Roadgeek 2005 Series D, Normal';text-align:start;letter-spacing:-34.72090912px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.21333334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0%;font-family:WayfindingSansRg-Bold;-inkscape-font-specification:'WayfindingSansRg-Bold, Normal';text-align:start;letter-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:0.21333334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="438.42825"
+         x="347.11798"
+         sodipodi:role="line"
+         id="tspan4301">2007-2017: 399</tspan></text>
+  </g>
+</svg>

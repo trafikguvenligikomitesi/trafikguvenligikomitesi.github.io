@@ -1,0 +1,420 @@
+.reveal {
+
+  /*
+   * font-family: GravurCondensed-Regular;
+   font-family: GravurCondensed-Regular;
+   */
+   font-family: DINPro-Regular;
+}
+
+.reveal h1, 
+.reveal h2, 
+.reveal h3, 
+.reveal h4, 
+.reveal h5, 
+.reveal h6 {
+
+   text-transform: none;
+   font-family: DINPro-Bold;
+}
+
+.reveal h1 {
+
+   font-size: 60pt;
+   line-height: 1.0;
+}
+
+.reveal .kktc_trafigi {
+
+   font-weight: 400; 
+   font-size: 4em; 
+   margin-top: 200px;
+}
+
+.reveal .talebimiz {
+
+   font-weight: 400; 
+   font-size: 3em; 
+   margin-top: 100px;
+   color: #070;
+   border-top: 5px solid #070;
+   border-bottom: 5px solid #070;
+  /*
+   background-color: #070;
+   */
+}
+
+.reveal .shadowed_title {
+   
+   font-weight: bold; 
+   text-shadow: 1px 1px 3px #777; 
+   color: #000055;
+}
+
+.reveal .shadowed_title_large_fonts {
+   
+   font-weight: bold;
+   font-size: 175%;
+   text-shadow: 1px 1px 3px #777; 
+   color: #005522;
+}
+
+.reveal .shadowed_title_midsize_fonts {
+   
+   font-weight: bold;
+   font-size: 125%;
+   text-shadow: 1px 1px 3px #777; 
+   color: #885500;
+}
+
+.reveal .shadowed_title_small_fonts {
+   
+   font-weight: bold;
+   font-size: 85%;
+   text-shadow: 1px 1px 3px #777; 
+   color: #444;
+}
+
+.reveal .shadowed_title_small_fonts.with_top_margin {
+
+   margin-top: 1em;
+}
+
+.reveal .level2.safety_first {
+   
+   background: url( "../images/asphalt01.jpg" );
+}
+
+.reveal .level2.whitefonts {
+
+   color: white;
+}
+
+.reveal h1 {
+
+   text-shadow: 1px 1px 3px #777;
+}
+
+.reveal.cube .slides section:not(.stack):before {
+  /*
+   * Cube transition setup
+   */
+   background-color: rgba( 0, 0, 0, 0.00980392 );
+  /*
+   border-radius: 10px;
+   */
+}
+
+.reveal.page .slides section:not(.stack):before {
+  /*
+   * Page transition setup
+   * SET BACKGROUND TO WHITE.
+   *
+   * background-color: rgba( 0, 0, 0, 0.00980392 );
+   */
+   background-color: rgba( 0, 0, 0, 0 );
+}
+
+.reveal.page .slides section:not(.stack):after {
+  /*
+   * Eliminate the box shadow on the bottom of each slide.
+   */
+   box-shadow: none;
+}
+
+.reveal img.drawing {
+
+  height: 450px;
+
+  /*
+   margin: auto;
+   letter-spacing: normal;
+   max-width: 100%;
+   max-height: 100%;
+   border: 5px solid red;
+   */
+}
+
+/*
+.reveal span .matjax-font {
+
+   font-family: Arial;
+}
+*/
+
+.reveal .sevenes {
+
+  /*
+   background-color: orange;
+   */
+   background-color: #ddd;
+   padding-top: 0px;
+   padding-bottom: 2px;
+   padding-left: 5px;
+   padding-right: 5px;
+   border: 1px solid #aaa;
+   font-family: DINPro-Medium;
+}
+
+.reveal div .hs-table {
+
+   font-size: 80%;
+}
+
+
+.reveal div .fatalities-table {
+
+   font-size: 70%;
+}
+
+.reveal div .fatalities-table table tr:nth-child( 2n ) {
+
+   background-color: #f8f8f8;
+}
+
+.reveal div .hs-table table tr:nth-child( 2n ) {
+
+   background-color: #f8f8f8;
+}
+
+.reveal div .hs-table table th {
+
+   color: white;
+   background-color:#555;
+}
+
+.reveal div .fatalities-table table th {
+
+   color: white;
+   background-color:#555;
+}
+
+.reveal div .fatalities-table table tr:nth-child( 1 ) {
+
+   background-color:#ffeeee;
+}
+
+.reveal div .table-footnote {
+
+   font-size: 50%;
+   margin-top: -10px;
+}
+
+.reveal .controls {
+  /*
+   * NOT A GOOD IDEA TO DO THIS, BECAUSE IT DOES NOT WORK LIKE THIS.
+   *
+   width: 50px;
+   height: 50px;
+   */
+}
+
+.reveal section img {
+
+   border: none;
+   margin: 0px;
+   box-shadow: none;
+   background: none;
+}
+
+.reveal section img .onceguvenlik {
+
+   height: 550px;
+}
+
+.reveal h1.verylarge {
+
+   font-size: 5.00em;
+   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
+
+.reveal .trakayad-logo {
+
+   margin: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding: 0;
+   height: 150px;
+   width: 150px;
+}
+
+.reveal .logo {
+
+   height: 400px;
+}
+
+.reveal table.equal_colwidth {
+
+   width: 100%;
+   border-collapse: collapse;
+   table-layout: fixed;
+}
+
+.reveal table td.logocell {
+
+   text-align: center;
+   width: 400px;
+   height: 225px;
+}
+
+.reveal a {
+
+   color: #154088;
+  /*
+   * font-family: Inconsolata, Courier;
+   font-size: 75%;
+   */
+}
+
+.reveal .large-centered-title {
+
+   font-size: 175%;
+}
+
+.reveal .large-title {
+
+   font-size: 175%;
+}
+
+.reveal .website-title {
+
+   text-transform: lowercase;
+   font-family: Inconsolata, Courier;
+  /*
+   */
+   font-size: 85%;
+}
+
+.reveal .website-link {
+
+   font-family: Inconsolata-Regular, Courier;
+   font-size: 60%;
+   margin-top -0px;
+}
+
+.reveal .website-link-small {
+
+   font-family: Inconsolata, Courier;
+   font-size: 60%;
+   margin-top -0px;
+   font-size: 45%;
+}
+
+.reveal .website-link-inline {
+
+   font-family: Inconsolata, Courier;
+   font-size: 75%;
+}
+
+.reveal .controls .navigate-right, 
+.reveal .controls .navigate-right.enabled {
+
+   border-left-color: #666666;
+}
+
+.reveal .controls .navigate-left, 
+.reveal .controls .navigate-left.enabled {
+
+   border-right-color: #666666;
+}
+
+
+/* Fonts */
+
+@font-face {
+    font-family: DINPro-Light;
+    src: url(fonts/din/DINPro-Light.otf) format("otf");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: DINPro-Regular;
+    src: url(fonts/din/DINPro-Regular.otf) format("otf");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: DINPro-Medium;
+    src: url(fonts/din/DINPro-Medium.otf) format("otf");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: DINPro-Bold;
+    src: url(fonts/din/DINPro-Bold.otf) format("otf");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: DINPro-Black;
+    src: url(fonts/din/DINPro-Black.otf) format("otf");
+    font-weight: 400;
+    font-style: normal
+}
+
+/*******************************/
+
+@font-face {
+    font-family: Inconsolata-Regular;
+    src: url(fonts/InconsolataGo-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Inconsolata-Bold;
+    src: url(fonts/InconsolataGo-Bold.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: GravurCondensed-Bold;
+    src: url(fonts/lineto-gravurcondensed-bold.eot?v=0.1.1);
+    src: url(fonts/lineto-gravurcondensed-bold.eot?v=0.1.1?#iefix) format("embedded-opentype"), url(fonts/lineto-gravurcondensed-bold.woff) format("woff"), url(fonts/lineto-gravurcondensed-bold.ttf) format("truetype"), url(fonts/lineto-gravurcondensed-bold.svg?v=0.1.1#lineto-gravurcondensed-bold) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: GravurCondensed-Thin;
+    src: url(fonts/lineto-gravurcondensed-thin.eot?v=0.1.1);
+    src: url(fonts/lineto-gravurcondensed-thin.eot?v=0.1.1?#iefix) format("embedded-opentype"), url(fonts/lineto-gravurcondensed-thin.woff) format("woff"), url(fonts/lineto-gravurcondensed-thin.ttf) format("truetype"), url(fonts/lineto-gravurcondensed-thin.svg?v=0.1.1#lineto-gravurcondensed-thin) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: GravurCondensed-Regular;
+    src: url(fonts/lineto-gravurcondensed-regular.eot?v=0.1.1);
+    src: url(fonts/lineto-gravurcondensed-regular.eot?v=0.1.1?#iefix) format("embedded-opentype"), url(fonts/lineto-gravurcondensed-regular.woff) format("woff"), url(fonts/lineto-gravurcondensed-regular.ttf) format("truetype"), url(fonts/lineto-gravurcondensed-regular.svg?v=0.1.1#lineto-gravurcondensed-regular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: GravurCondensed-Black;
+    src: url(fonts/lineto-gravurcondensed-black.eot?v=0.1.1);
+    src: url(fonts/lineto-gravurcondensed-black.eot?v=0.1.1?#iefix) format("embedded-opentype"), url(fonts/lineto-gravurcondensed-black.woff) format("woff"), url(fonts/lineto-gravurcondensed-black.ttf) format("truetype"), url(fonts/lineto-gravurcondensed-black.svg?v=0.1.1#lineto-gravurcondensed-black) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: GravurCondensed-Light;
+    src: url(fonts/lineto-gravurcondensed-light.eot?v=0.1.1);
+    src: url(fonts/lineto-gravurcondensed-light.eot?v=0.1.1?#iefix) format("embedded-opentype"), url(fonts/lineto-gravurcondensed-light.woff) format("woff"), url(fonts/lineto-gravurcondensed-light.ttf) format("truetype"), url(fonts/lineto-gravurcondensed-light.svg?v=0.1.1#lineto-gravurcondensed-light) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+
+
+/* 
+ * End of style.css
+ */
+

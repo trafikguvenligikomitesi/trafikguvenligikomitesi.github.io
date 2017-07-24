@@ -1,0 +1,26 @@
+function piResponse() {
+piSetCookie('visitor_id125411', '149668215', 3650);
+
+if (document.location.protocol != "https:") {
+var analytics_link = "http://" + "go.propublica.org/analytics?";
+pi.tracker.visitor_id='149668215';
+
+pi.tracker.visitor_id_sign='e9a5f58dde3961440866dbe2d34261358f32d61e658033bf792b61be6dbd22409dfa91287999c173ebece0247c490b003be22499';
+
+var variables = 'conly=true';
+for (property in pi.tracker) {
+	variables += "&"+property+"="+pi.tracker[property];
+}
+var headID = document.getElementsByTagName("head")[0];
+piScriptObj[piScriptNum] = document.createElement('script');
+piScriptObj[piScriptNum].type = 'text/javascript';
+piScriptObj[piScriptNum].src = analytics_link + variables;
+headID.appendChild(piScriptObj[piScriptNum]);
+piScriptObj[piScriptNum].onload = function() { return; }
+}
+}
+piResponse();
+
+
+
+

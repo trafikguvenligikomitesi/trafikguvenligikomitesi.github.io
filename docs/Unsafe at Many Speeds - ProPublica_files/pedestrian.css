@@ -1,0 +1,189 @@
+#pedestrian-graphic {
+  position: relative;
+  display: none;
+}
+
+#pedestrian-graphic #chart-container * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+#pedestrian-graphic .focus {
+  pointer-events: none;
+}
+
+#pedestrian-graphic .axis path,
+#pedestrian-graphic .axis line {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+
+#pedestrian-graphic .axis path {
+  display: none;
+}
+
+#pedestrian-graphic .rectangle path {
+  fill: none;
+  pointer-events: all;
+}
+
+
+#pedestrian-graphic text {
+  font-size: 13px;
+  fill: rgba(0,0,0,.5);
+}
+
+#pedestrian-graphic .tooltip text {
+  font-size: 12px;
+  font-weight: bold;
+  fill: #000;
+
+}
+
+#pedestrian-graphic .chart-label {
+  display:inline-block;
+  height: 100px;
+  width: 100%
+}
+#pedestrian-graphic .gif-label h2 {
+
+}
+
+#pedestrian-graphic .chart-label h1 {
+  display: inline-block;
+  width: 100%;
+  font-size: 26px;
+}
+
+#pedestrian-graphic .line {
+  fill: none;
+  stroke: url(#color-gradient);
+  stroke-width: 2px;
+}
+
+
+#pedestrian-graphic #chart h2 {
+  position: absolute;
+  top: 40%;
+  left: 17%;
+  font-size: 40px;
+}
+
+
+#pedestrian-graphic #chart-container {
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+    background: url("//propublica.s3.amazonaws.com/images/gradient.jpg") 96.1% 30% no-repeat;
+    background-size: 10px 320px;
+    display: inline-block;
+    position: relative;
+
+}
+
+
+
+#pedestrian-graphic #chart-container h3 {
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  font-size: 11px;
+  display: inline-block;
+  position: absolute;
+  font-weight: normal;
+  top: 91.5%;
+  left: 94.5%;
+  color: #92cf71;
+  width: 75px;
+}
+
+#pedestrian-graphic #chart-container h3:first-child{
+    top: -10px;
+    color: #cc0000;
+    left: 94.5%;
+}
+
+
+
+#pedestrian-graphic #chart {
+  float: left;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 630px
+}
+
+
+#pedestrian-graphic .tooltip path {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(0,0,0,.1);
+    stroke-width: 1px;
+}
+
+#pedestrian-graphic .rect-voronoi {
+  fill:rgba(0,0,0,0);
+}
+
+#pedestrian-graphic .rect {
+  cursor: pointer;
+}
+
+#pedestrian-graphic .highlight line{
+  stroke:rgba(0,0,0,1);
+  shape-rendering: crispEdges;
+}
+
+#pedestrian-graphic line {
+  stroke:rgba(0,0,0,.05);
+  shape-rendering: crispEdges;
+}
+
+
+.article #pedestrian-graphic .chart-label h5 {
+  font-weight: normal;
+  font-size: 14px;
+  font-style: italic;
+  padding-top: 5px;
+}
+
+#ped-graphic-gif img {
+  max-width: 100%
+}
+
+@media screen and (max-width: 480px) {
+  .mobile-gone {
+    display: none;
+  }
+}
+
+
+/*FOR GIF MAKING
+*/
+/*#pedestrian-graphic .gif {
+    position: absolute;
+    top: 160px;
+    left: 75px;
+}
+
+#pedestrian-graphic .gif h1, #pedestrian-graphic .gif p {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  float: left;
+}
+
+#pedestrian-graphic .gif p {
+  margin:10px 0px 0px 5px;
+  font-size: 18px
+}
+
+#pedestrian-graphic .highlight line{
+  stroke:rgba(0,0,0,.05);
+  shape-rendering: crispEdges;
+}
+
+#pedestrian-graphic .focus {
+  display: none;
+}*/

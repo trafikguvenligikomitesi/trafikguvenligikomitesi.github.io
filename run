@@ -1,0 +1,33 @@
+#!/bin/bash
+#
+# transition: default/cube/page/concave/zoom/linear/fade/none
+#
+transition="default"
+transition="fade"
+transition="zoom"
+transition="concave"
+transition="cube"
+transition="page"
+transition_speed="slow"
+theme="black"
+theme="white"
+
+pandoc -t html5 --smart --template=template-revealjs.html \
+  --standalone --section-divs \
+  --variable theme="${theme}" \
+  --variable transition="${transition}" \
+  --variable transition_speed="${transition_speed}" \
+  slides.md -o slides.html
+
+# Remove slide name-based section IDs so we can go back to numeric slide
+# numbering. This way we can easily reload the same page. Otherwise, reloading
+# causes the presentation to jump to the title page.
+#
+cat slides.html | sed -e 's/section id="[^"]*"/section/g' > slides_out.html
+mv slides_out.html index.html
+
+chromium-browser index.html &
+
+#
+# End of script
+#
