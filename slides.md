@@ -396,8 +396,7 @@ W. Edwards Deming’in 14 maddesi (10):
 
 W. Edwards Deming’in 14 maddesi (11a):
 
-11. "Fabrikada iş standartlarını (kotaları) ortadan kaldırın. Yerine
-    liderliği koyun."
+11. "Fabrikada iş standartlarını (kotaları) ortadan kaldırın. Yerine liderliği koyun."
 
 
 ## Trafik Güvenliği Sisteminin başarılı olması için ... {data-transition="none"}
@@ -405,7 +404,7 @@ W. Edwards Deming’in 14 maddesi (11a):
 W. Edwards Deming’in 14 maddesi (11b):
 
 11. "Hedeflerle yönetimi ortadan kaldırın. Sayılarla, sayısal hedeflerle
-    yönetimi ortadan kaldırın. yerine liderliği koyun."
+    yönetimi ortadan kaldırın. Yerine liderliği koyun."
 
 
 ## Trafik Güvenliği Sisteminin başarılı olması için ... {data-transition="none"}
